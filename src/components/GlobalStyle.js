@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import 'modern-normalize';
+import background from "../img/ponebook.jpg";
+
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -8,9 +10,12 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(229, 236, 231, 0.99);
-}
+    background-image:  url(${background});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+           }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

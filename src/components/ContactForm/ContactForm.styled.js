@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 320px;
     border-radius: 0.75rem;
-   background-color: rgba(17, 24, 39, 0.9);
+   background-color: rgba(17, 24, 39, 0.8);
     padding: 2rem;
     color: rgba(243, 244, 246, 1);
 `;
@@ -47,7 +47,7 @@ export const Input = styled(Field)`
   border-radius: 0.375rem;
   border: 1px solid rgba(55, 65, 81, 1);
   outline: 0;
-  background-color: rgba(17, 24, 39, 1);
+  background-color: rgba(17, 24, 39, 0.8);
   padding: 0.75rem 1rem;
   color: rgba(243, 244, 246, 1);
 `;
