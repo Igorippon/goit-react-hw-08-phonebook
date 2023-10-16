@@ -12,8 +12,8 @@ export const Navigation = () => {
                 Home
             </PageLink>
             {isLoggedIn && (
-                <PageLink to="/tasks">
-                    Tasks
+                <PageLink to="/contacts">
+                    Contacts
                 </PageLink>
             )}
         </nav>

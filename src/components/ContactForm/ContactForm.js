@@ -1,6 +1,6 @@
 import { Formik } from "formik";
 import * as Yup from 'yup';
-import { Label, StyledForm, Button, ErrorMsg, Container, Input } from "./ContactForm.styled";
+import { Label, StyledForm, Button, ErrorMsg, Container, Input, Wrapper } from "./ContactForm.styled";
 import { useDispatch, useSelector } from "react-redux";
 import { addContact } from "redux/contacts/operations";
 
@@ -29,7 +29,7 @@ export const ContactForm = () => {
     };
 
     return (
-        <>
+        <Wrapper>
             <h1>Phonebook</h1>
             <Container>
                 <Formik
@@ -50,7 +50,7 @@ export const ContactForm = () => {
                     </StyledForm>
                 </Formik>
             </Container>
-        </>
+        </Wrapper>
     );
 };
 

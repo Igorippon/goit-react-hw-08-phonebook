@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+export const Wrapper = styled.div`
+padding: 20px 0px;
+`;
+
+export const H = styled.h2`
+text-align:center;
+margin-bottom:20px;
+`
+
 export const Input = styled.input`
 
   border-radius: 10px;

@@ -7,6 +7,7 @@ align-items: center;
 gap: 20px;
 width: 375px;
 margin-top:30px;
+padding-bottom:40px;
 `;
 
 export const Item = styled.li`
@@ -27,7 +28,8 @@ padding: 4px;
 cursor: pointer;
 border-radius: 0.75rem;
 &:hover
- {   
+ {  
+     color: #e84a5f; 
 background-color: rgba(229, 236, 231, 0.99);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 };

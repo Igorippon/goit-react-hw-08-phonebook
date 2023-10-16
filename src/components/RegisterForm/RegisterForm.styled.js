@@ -51,12 +51,3 @@ export const Input = styled(Field)`
   padding: 0.75rem 1rem;
   color: rgba(243, 244, 246, 1);
 `;
-
-export const Wrapper = styled.div`
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items: center;
-gap:20px;
-padding:20px 0px;
-`

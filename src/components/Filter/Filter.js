@@ -1,5 +1,5 @@
 import { filterName } from "redux/contacts/filterSlice";
-import { Input } from "./Filter.styled";
+import { H, Input, Wrapper } from "./Filter.styled";
 import { useDispatch, useSelector } from "react-redux";
 import { selectFilter } from "redux/contacts/selectors";
 
@@ -10,15 +10,15 @@ export const Filter = () => {
         dispatch(filterName(e.target.value))
     };
     return (
-        <>
-            <h2>Contacts</h2>
+        <Wrapper>
+            <H>Contacts</H>
             <Input type="text"
                 name="filter"
                 value={filter}
                 placeholder="Find contacts by name"
                 onChange={handleChange} />
 
-        </>
+        </Wrapper>
     );
 
 }
