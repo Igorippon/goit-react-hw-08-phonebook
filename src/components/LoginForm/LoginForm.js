@@ -15,10 +15,7 @@ const ContactSchema = Yup.object().shape({
 
 export const LoginForm = () => {
     const dispatch = useDispatch();
-
     const handleSubmit = (value, actions) => {
-        // e.preventDefault();
-        // const form = e.currentTarget;
         dispatch(
             logIn(value)
         );
@@ -45,6 +42,5 @@ export const LoginForm = () => {
                 </StyledForm>
             </Formik>
         </Container>
-
     );
 };

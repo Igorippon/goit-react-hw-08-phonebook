@@ -18,11 +18,7 @@ const ContactSchema = Yup.object().shape({
 
 export const RegisterForm = () => {
     const dispatch = useDispatch();
-
     const handleSubmit = (value, actions) => {
-        // e.preventDefault();
-        // const form = e.currentTarget;
-        console.log(value);
         dispatch(
             register(value)
         );

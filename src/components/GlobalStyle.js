@@ -2,7 +2,6 @@ import { createGlobalStyle } from "styled-components";
 import 'modern-normalize';
 import background from "../img/ponebook.jpg";
 
-
 export const GlobalStyle = createGlobalStyle`
 body {
   margin: 0 ;

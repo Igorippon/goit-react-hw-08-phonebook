@@ -17,7 +17,6 @@ export const Filter = () => {
                 value={filter}
                 placeholder="Find contacts by name"
                 onChange={handleChange} />
-
         </Wrapper>
     );
 

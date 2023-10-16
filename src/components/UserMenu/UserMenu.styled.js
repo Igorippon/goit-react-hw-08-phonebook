@@ -14,7 +14,8 @@ font-weight: 700;
 export const Button = styled.button`
 padding: 4px;
 cursor: pointer;
-border-radius: 0.75rem;
+border-radius: 8px;
+
 &:hover
  { 
     color: #e84a5f;  

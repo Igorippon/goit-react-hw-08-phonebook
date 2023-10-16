@@ -1,6 +1,4 @@
-
 import { AuthLink } from './AuthNav.styled';
-
 
 export const AuthNav = () => {
     return (

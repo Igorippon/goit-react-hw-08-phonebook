@@ -8,7 +8,6 @@ export const H = styled.h2`
 text-align:center;
 margin-bottom:20px;
 `
-
 export const Input = styled.input`
 
   border-radius: 10px;
