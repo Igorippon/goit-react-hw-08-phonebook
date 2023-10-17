@@ -5,11 +5,6 @@ import { deleteContact, fetchContacts } from "redux/contacts/operations";
 import { useEffect } from "react";
 
 export const ContactList = () => {
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(fetchContacts());
-    }, [dispatch]);
 
     const visibilContact = useSelector(selectVisibleContacts);
     return (
